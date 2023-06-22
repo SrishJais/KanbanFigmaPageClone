@@ -1,0 +1,24 @@
+#card {
+  max-width: 345;
+  border-radius: "16px";
+  width: "100%";
+}
+#card:hover {
+  cursor: grab;
+}
+.priority {
+  background: rgba(223, 168, 116, 0.2);
+  border-radius: 4px;
+}
+.low {
+  color: #d58d49;
+  background: rgba(223, 168, 116, 0.2);
+}
+.high {
+  color: #d8727d;
+  background: rgba(216, 114, 125, 0.1);
+}
+.completed {
+  color: #68b266;
+  background: rgba(131, 194, 157, 0.2);
+}

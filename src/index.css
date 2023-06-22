@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Note: overflow-x is used in html,body tag to avoid unwanted horizontal scroll during animation */
+html {
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;
+}
+body{
+  /* clip is used so that overflow property does not restrict position sticky */
+  overflow-x: clip;
+}
